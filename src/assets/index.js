@@ -23,7 +23,7 @@ import threejs from "./tech/threejs.svg";
 import HackerRank from './company/HackerRank.png';
 import Udemy from './company/udemy.png'
 import Postman from './company/postman.png'
-
+import Live from './Live.png'
 import pitcherModal from './pitcherModal.png'
 import horizonModel from './horizonModel.jpg'
 import storeItModal from './storeItModal.png'
@@ -55,7 +55,7 @@ export {
  storeItModal,
  Udemy,
  HackerRank,
- Postman
-
+ Postman,
+ Live
 
 };

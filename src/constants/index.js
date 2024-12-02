@@ -213,6 +213,7 @@ import {
       ],
       image: horizonModel,
       source_code_link: "https://github.com/Abhyshekbhalaji/horizon",
+     project_code_link:"https://horizon-9v2u-8xtc8he4s-abhyshekbhalajis-projects.vercel.app/"
     },
     {
       name: "YC Directory",
@@ -234,6 +235,7 @@ import {
       ],
       image: pitcherModal,
       source_code_link: "https://github.com/Abhyshekbhalaji/Pitcher_Nextjs",
+      project_code_link:"https://pitcher-nextjs.vercel.app/"
     },
     {
       name: "Store It",
@@ -255,6 +257,7 @@ import {
       ],
       image: storeItModal,
       source_code_link: "https://github.com/Abhyshekbhalaji/store_it",
+        project_code_link:"https://store-it-eight-alpha.vercel.app/"
     },
   ];
   

@@ -3,13 +3,13 @@ import { Tilt } from 'react-tilt'
 import {motion} from 'framer-motion'
 
 import { styles } from '../style';
-import { github } from '../assets';
+import { github, Live } from '../assets';
 import {projects} from '../constants'
 import { fadeIn,textVariant } from '../utils/motion';
 import {SectionWrapper} from '../hoc';
 
 
-const ProjectCard =({index,name,description,tags,image,source_code_link})=>{
+const ProjectCard =({index,name,description,tags,image,source_code_link,project_code_link})=>{
   return (
     <motion.div variants={fadeIn("up","spring",index*0.5,0.75)}>
       <Tilt options={{
@@ -31,6 +31,16 @@ const ProjectCard =({index,name,description,tags,image,source_code_link})=>{
             <img src={github} alt="github" className='w-1/2 h-1/2 object-contain'/>
 
           </div>
+          
+          <div onClick={()=>window.open(
+           project_code_link,'_blank'
+          )}
+          className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+           <p className='text-[12px] cursor pointer hover:text-red-600 '>Live</p>
+
+          </div>
+
+
           </div>
         </div>
         <div className='mt-5'>
